@@ -1,0 +1,15 @@
+{
+  "name": "notes-cli",
+  "version": "1.0.0",
+  "description": "Notes command line app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Dodo",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "yargs": "^12.0.1"
+  }
+}
