@@ -1,4 +1,3 @@
-console.log('Starting notes.js');
 const fs = require('fs');
 
 let fetchNotes = () => {
@@ -25,7 +24,7 @@ const addNote = (title, body) => {
   }
 };
 
-const getAll = () => console.log('Getting all notes');
+const getAll = () => fetchNotes();
 const getNote = title => {
   let notes = fetchNotes();
   let filteredNotes = notes.filter(note => note.title === title);
